@@ -1,0 +1,3 @@
+# cantor
+
+::: pairings.cantor
