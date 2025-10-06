@@ -387,15 +387,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#pairings.cantor2.gen" class="md-nav__link">
-    <span class="md-ellipsis">
-      gen
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -470,15 +461,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#pairings.cantor2.gen" class="md-nav__link">
-    <span class="md-ellipsis">
-      gen
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -545,13 +527,13 @@
 
             <details class="quote">
               <summary>Source code in <code>pairings\cantor2.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">17</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">16</span>
+<span class="normal">17</span>
 <span class="normal">18</span>
 <span class="normal">19</span>
 <span class="normal">20</span>
 <span class="normal">21</span>
-<span class="normal">22</span>
-<span class="normal">23</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">pair</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">):</span>
+<span class="normal">22</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">pair</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Return the paired number.</span>
 
 <span class="sd">    Cantor pairing function variation.</span>
@@ -586,15 +568,15 @@
 
             <details class="quote">
               <summary>Source code in <code>pairings\cantor2.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">25</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">24</span>
+<span class="normal">25</span>
 <span class="normal">26</span>
 <span class="normal">27</span>
 <span class="normal">28</span>
 <span class="normal">29</span>
 <span class="normal">30</span>
 <span class="normal">31</span>
-<span class="normal">32</span>
-<span class="normal">33</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">depair</span><span class="p">(</span><span class="n">z</span><span class="p">):</span>
+<span class="normal">32</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">depair</span><span class="p">(</span><span class="n">z</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Return the depaired numbers.</span>
 
 <span class="sd">    Cantor pairing function variation inverse.</span>
@@ -603,40 +585,6 @@
     <span class="n">w</span> <span class="o">=</span> <span class="p">(</span><span class="n">isqrt</span><span class="p">(</span><span class="mi">8</span> <span class="o">*</span> <span class="n">z</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
     <span class="n">t</span> <span class="o">=</span> <span class="p">(</span><span class="n">w</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">w</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
     <span class="k">return</span> <span class="p">(</span><span class="n">z</span><span class="o">-</span><span class="n">t</span><span class="p">,</span> <span class="n">w</span><span class="o">-</span><span class="p">(</span><span class="n">z</span><span class="o">-</span><span class="n">t</span><span class="p">))</span>
-</code></pre></div></td></tr></table></div>
-            </details>
-    </div>
-
-</div>
-
-
-
-
-
-
-<div class="doc doc-object doc-function">
-
-
-<h2 id="pairings.cantor2.gen" class="doc doc-heading">
-<code class="doc-symbol doc-symbol-heading doc-symbol-function"></code>            <code class="highlight language-python"><span class="n">gen</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span></code>
-
-</h2>
-
-
-    <div class="doc doc-contents ">
-
-        <p>Yield Cantor pairing function variation tuples.</p>
-
-
-            <details class="quote">
-              <summary>Source code in <code>pairings\cantor2.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">35</span>
-<span class="normal">36</span>
-<span class="normal">37</span>
-<span class="normal">38</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">gen</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Yield Cantor pairing function variation tuples.&quot;&quot;&quot;</span>
-    <span class="k">for</span> <span class="n">z</span> <span class="ow">in</span> <span class="n">count</span><span class="p">(</span><span class="n">start</span><span class="p">):</span>
-        <span class="k">yield</span> <span class="n">depair</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>
 </code></pre></div></td></tr></table></div>
             </details>
     </div>
