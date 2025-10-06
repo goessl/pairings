@@ -15,11 +15,10 @@ References
 
 from math import isqrt
 from functools import reduce
-from itertools import count
 
 
 
-__all__ = ('pair', 'depair', 'gen')
+__all__ = ('pair', 'depair')
 
 
 
@@ -57,13 +56,3 @@ def depair(z, d=2):
         t = (w**2 + w) // 2
         i[0:1] = [w-(i[0]-t), i[0]-t]
     return tuple(i)
-
-def gen(*, d=2, start=0):
-    r"""Yield Cantor pairing function tuples.
-    
-    $$
-        \left(\pi^{-1}(n)\right)_{n\in\mathbb{N}} = \left((0,0), (1,0), (0,1), (2,0), (1,1), (0,2), \dots\right)
-    $$
-    """
-    for z in count(start):
-        yield depair(z, d=d)

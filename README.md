@@ -41,6 +41,7 @@ Enjoy the **[documentation webpage](https://goessl.github.io/pairings)**.
         - [ ] Szudzik
         - [x] Rosenberg-Strong
     - Utility
+        - [ ] Pair generator
         - [ ] Generalizer to higher dimensions
         - [ ] Generalizer to $\mathbb{Z}^2$
         - [ ] Generalizer for shifts?

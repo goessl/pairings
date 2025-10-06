@@ -1,4 +1,3 @@
-from itertools import islice
 from pairings.rosenberg_strong import *
 
 
@@ -42,7 +41,3 @@ def test_depair():
 def test_pair_and_unpair():
     for n in range(100):
         assert pair(*depair(n)) == n
-
-def test_unfold_gen():
-    for n, i in enumerate(islice(gen(), 100)):
-        assert depair(n) == i

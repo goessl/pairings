@@ -6,11 +6,10 @@ Flipped version of [`cantor`](cantor.md).
 
 
 from math import isqrt
-from itertools import count
 
 
 
-__all__ = ('pair', 'depair', 'gen')
+__all__ = ('pair', 'depair')
 
 
 
@@ -31,8 +30,3 @@ def depair(z):
     w = (isqrt(8 * z + 1) - 1) // 2
     t = (w**2 + w) // 2
     return (z-t, w-(z-t))
-
-def gen(start=0):
-    """Yield Cantor pairing function variation tuples."""
-    for z in count(start):
-        yield depair(z)

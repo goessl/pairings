@@ -35,11 +35,7 @@ References
 
 
 
-from itertools import count
-
-
-
-__all__ = ('fold', 'unfold', 'gen')
+__all__ = ('fold', 'unfold')
 
 
 
@@ -68,14 +64,3 @@ def unfold(n):
     """
     assert isinstance(n, int) and n>=0, 'Can only unfold natural numbers.'
     return (n+1)//2 if bool(n%2) else -n//2
-
-def gen(start=0):
-    r"""Yield whole integers in increasing absolute value.
-    
-    $$
-        \left(f^{-1}(n)\right)_{n\in\mathbb{N}_0} = (0, +1, -1, +2, -2, +3, -3, +4, -4, \dots)
-    $$
-    """
-    assert isinstance(start, int) and start>=0, 'Can only unfold natural numbers.'
-    for n in count(start):
-        yield unfold(n)

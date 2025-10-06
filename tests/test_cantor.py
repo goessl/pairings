@@ -1,4 +1,3 @@
-from itertools import islice
 from pairings.cantor import *
 
 
@@ -63,7 +62,3 @@ def test_pair_and_unpair():
     for d in (1, 2, 3, 4):
         for n in range(100):
             assert pair(*depair(n, d=d)) == n
-
-def test_gen():
-    for n, i in enumerate(islice(gen(), 100)):
-        assert depair(n) == i

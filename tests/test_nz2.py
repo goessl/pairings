@@ -1,4 +1,3 @@
-from itertools import islice
 from pairings.nz2 import *
 
 
@@ -30,7 +29,3 @@ def test_fold_and_unfold():
         assert fold(unfold(n)) == n
     for i in range(-50, +50):
         assert unfold(fold(i)) == i
-
-def test_gen():
-    for n, i in enumerate(islice(gen(), 100)):
-        assert unfold(n) == i

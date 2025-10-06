@@ -1,4 +1,3 @@
-from itertools import islice
 from pairings import cantor2, cantor
 
 

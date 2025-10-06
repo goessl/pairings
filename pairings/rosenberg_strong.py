@@ -8,11 +8,10 @@ References
 
 
 from math import isqrt
-from itertools import count
 
 
 
-__all__ = ('pair', 'depair', 'gen')
+__all__ = ('pair', 'depair')
 
 
 
@@ -36,8 +35,3 @@ def depair(z):
         return (z-m**2, m)
     else:
         return (m, m**2+2*m-z)
-
-def gen(start=0):
-    """Yield Rosenberg-Strong pairing function tuples."""
-    for z in count(start):
-        yield depair(z)
