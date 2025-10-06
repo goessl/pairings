@@ -13,6 +13,7 @@ nav:
   - nz.md
   - nz2.md
   - cantor.md
+  - rosenberg_strong.md
 
 theme:
   name: material

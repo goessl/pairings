@@ -25,12 +25,12 @@ pip install git+https://github.com/goessl/pairings.git
 
 ## Usage
 
-|           | [`nz`](nz.md)                           | [`nz2`](nz2.md)                         | [`cantor`](cantor.md)                       |
-| --------- | --------------------------------------- | --------------------------------------- | ------------------------------------------- |
-| Domains   | $\mathbb{N}_0\leftrightarrow\mathbb{Z}$ | $\mathbb{N}_0\leftrightarrow\mathbb{Z}$ | $\mathbb{N}_0\leftrightarrow\mathbb{N}_0^d$ |
-| Forward   | [`nz.fold`][pairings.nz.fold]            | [`nz2.fold`][pairings.nz2.fold]          | [`cantor.pair`][pairings.cantor.pair]        |
-| Backwards | [`nz.unfold`][pairings.nz.unfold]        | [`nz2.unfold`][pairings.nz2.unfold]      | [`cantor.depair`][pairings.cantor.depair]    |
-| Generator | [`nz.gen`][pairings.nz.gen]              | [`nz2.gen`][pairings.nz2.gen]            | [`cantor.gen`][pairings.cantor.gen]          |
+|           | [`nz`](nz.md)                           | [`nz2`](nz2.md)                         | [`cantor`](cantor.md)                       | [`rosenberg_strong`](rosenberg_strong.md)                     |
+| --------- | --------------------------------------- | --------------------------------------- | ------------------------------------------- | ------------------------------------------------------------- |
+| Domains   | $\mathbb{N}_0\leftrightarrow\mathbb{Z}$ | $\mathbb{N}_0\leftrightarrow\mathbb{Z}$ | $\mathbb{N}_0\leftrightarrow\mathbb{N}_0^d$ | $\mathbb{N}_0\leftrightarrow\mathbb{N}_0^2$                   |
+| Forward   | [`nz.fold`][pairings.nz.fold]           | [`nz2.fold`][pairings.nz2.fold]         | [`cantor.pair`][pairings.cantor.pair]       | [`rosenberg_strong.pair`][pairings.rosenberg_strong.pair]     |
+| Backwards | [`nz.unfold`][pairings.nz.unfold]       | [`nz2.unfold`][pairings.nz2.unfold]     | [`cantor.depair`][pairings.cantor.depair]   | [`rosenberg_strong.depair`][pairings.rosenberg_strong.depair] |
+| Generator | [`nz.gen`][pairings.nz.gen]             | [`nz2.gen`][pairings.nz2.gen]           | [`cantor.gen`][pairings.cantor.gen]         | [`rosenberg_strong.gen`][pairings.rosenberg_strong.gen]       |
 
 ## Roadmap
 
@@ -43,6 +43,7 @@ pip install git+https://github.com/goessl/pairings.git
         - [ ] Regan
         - [ ] Pigeon
         - [ ] Szudzik
+        - [x] Rosenberg-Strong
     - Utility
         - [ ] Generalizer to higher dimensions
         - [ ] Generalizer to $\mathbb{Z}^2$

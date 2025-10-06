@@ -38,6 +38,7 @@ Enjoy the **[documentation webpage](https://goessl.github.io/pairings)**.
         - [ ] Regan
         - [ ] Pigeon
         - [ ] Szudzik
+        - [x] Rosenberg-Strong
     - Utility
         - [ ] Generalizer to higher dimensions
         - [ ] Generalizer to $\mathbb{Z}^2$
