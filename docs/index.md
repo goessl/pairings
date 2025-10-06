@@ -39,6 +39,7 @@ pip install git+https://github.com/goessl/pairings.git
 - Pairings
     - Bijections
         - [x] Cantor
+        - [x] Cantor variation
         - [ ] Hopcroft-Ullman
         - [ ] Regan
         - [ ] Pigeon

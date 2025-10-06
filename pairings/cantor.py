@@ -54,7 +54,8 @@ def depair(z, d=2):
     i = [z]
     while len(i) < d:
         w = (isqrt(8 * i[0] + 1) - 1) // 2
-        i[0:1] = [w-(i[0]-w*(w+1)//2), i[0]-w*(w+1)//2]
+        t = (w**2 + w) // 2
+        i[0:1] = [w-(i[0]-t), i[0]-t]
     return tuple(i)
 
 def gen(*, d=2, start=0):

@@ -34,6 +34,7 @@ Enjoy the **[documentation webpage](https://goessl.github.io/pairings)**.
 - Pairings
     - Bijections
         - [x] Cantor
+        - [x] Cantor variation
         - [ ] Hopcroft-Ullman
         - [ ] Regan
         - [ ] Pigeon

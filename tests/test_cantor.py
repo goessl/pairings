@@ -64,6 +64,6 @@ def test_pair_and_unpair():
         for n in range(100):
             assert pair(*depair(n, d=d)) == n
 
-def test_unfold_gen():
+def test_gen():
     for n, i in enumerate(islice(gen(), 100)):
         assert depair(n) == i
