@@ -38,7 +38,7 @@ Enjoy the **[documentation webpage](https://goessl.github.io/pairings)**.
         - [ ] Hopcroft-Ullman
         - [ ] Regan
         - [ ] Pigeon
-        - [ ] Szudzik
+        - [x] Szudzik
         - [x] Rosenberg-Strong
     - Utility
         - [ ] Pair generator

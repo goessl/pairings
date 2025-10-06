@@ -25,11 +25,11 @@ pip install git+https://github.com/goessl/pairings.git
 
 ## Usage
 
-|           | [`nz`](nz.md)                           | [`nz2`](nz2.md)                         | [`cantor`](cantor.md)                       | [`rosenberg_strong`](rosenberg_strong.md)                     |
-| --------- | --------------------------------------- | --------------------------------------- | ------------------------------------------- | ------------------------------------------------------------- |
-| Domains   | $\mathbb{N}_0\leftrightarrow\mathbb{Z}$ | $\mathbb{N}_0\leftrightarrow\mathbb{Z}$ | $\mathbb{N}_0\leftrightarrow\mathbb{N}_0^d$ | $\mathbb{N}_0\leftrightarrow\mathbb{N}_0^2$                   |
-| Pair      | [`nz.fold`][pairings.nz.fold]           | [`nz2.fold`][pairings.nz2.fold]         | [`cantor.pair`][pairings.cantor.pair]       | [`rosenberg_strong.pair`][pairings.rosenberg_strong.pair]     |
-| Depair    | [`nz.unfold`][pairings.nz.unfold]       | [`nz2.unfold`][pairings.nz2.unfold]     | [`cantor.depair`][pairings.cantor.depair]   | [`rosenberg_strong.depair`][pairings.rosenberg_strong.depair] | 
+|           | [`nz`](nz.md)                           | [`nz2`](nz2.md)                         | [`cantor`](cantor.md)                       | [`rosenberg_strong`](rosenberg_strong.md)                     | [`szudzik`](szudzik.md)                     |
+| --------- | --------------------------------------- | --------------------------------------- | ------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------- |
+| Domains   | $\mathbb{N}_0\leftrightarrow\mathbb{Z}$ | $\mathbb{N}_0\leftrightarrow\mathbb{Z}$ | $\mathbb{N}_0\leftrightarrow\mathbb{N}_0^d$ | $\mathbb{N}_0\leftrightarrow\mathbb{N}_0^2$                   | $\mathbb{N}_0\leftrightarrow\mathbb{N}_0^2$ |
+| Pair      | [`nz.fold`][pairings.nz.fold]           | [`nz2.fold`][pairings.nz2.fold]         | [`cantor.pair`][pairings.cantor.pair]       | [`rosenberg_strong.pair`][pairings.rosenberg_strong.pair]     | [`szudzik.pair`][pairings.szudzik.pair]     |
+| Depair    | [`nz.unfold`][pairings.nz.unfold]       | [`nz2.unfold`][pairings.nz2.unfold]     | [`cantor.depair`][pairings.cantor.depair]   | [`rosenberg_strong.depair`][pairings.rosenberg_strong.depair] | [`szudzik.depair`][pairings.szudzik.depair] |
 
 ## Roadmap
 
@@ -42,7 +42,7 @@ pip install git+https://github.com/goessl/pairings.git
         - [ ] Hopcroft-Ullman
         - [ ] Regan
         - [ ] Pigeon
-        - [ ] Szudzik
+        - [x] Szudzik
         - [x] Rosenberg-Strong
     - Utility
         - [ ] Pair generator

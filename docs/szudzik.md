@@ -1,0 +1,3 @@
+# szudzik
+
+::: pairings.szudzik
