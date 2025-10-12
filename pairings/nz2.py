@@ -1,9 +1,5 @@
 r"""Varitation of [`nz`](nz.md)
 
-$$
-    \mathbb{N}_0 \leftrightarrow \mathbb{Z}
-$$
-
 In contrast to [`nz`](nz.md): here positive preceedes negative.
 
 ![plots](nz2.png)

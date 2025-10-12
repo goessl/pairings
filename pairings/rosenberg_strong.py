@@ -1,5 +1,7 @@
 r"""Rosenberg-Strong pairing.
 
+![plot](rosenberg_strong.png)
+
 References
 ----------
 - [Matthew P. Szudzik: The Rosenberg-Strong Pairing Function - Chapter 2](https://arxiv.org/pdf/1706.04129)

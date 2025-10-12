@@ -1,8 +1,6 @@
 r"""Cantor pairing.
 
-$$
-    \mathbb{N}_0 \leftrightarrow \mathbb{N}_0^d
-$$
+![plot](cantor.png)
 
 References
 ----------

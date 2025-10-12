@@ -1,5 +1,7 @@
 """Szudzik pairing.
 
+![plot](szudzik.png)
+
 References
 ----------
 - [Szudzik: Elegant Pairing](http://szudzik.com/ElegantPairing.pdf)

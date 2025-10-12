@@ -1,6 +1,8 @@
 """Cantor pairing variation.
 
 Flipped version of [`cantor`](cantor.md).
+
+![plot](cantor2.png)
 """
 
 

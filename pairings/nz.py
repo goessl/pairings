@@ -1,9 +1,5 @@
 r"""Canonical bijection between natural numbers and whole integers.
 
-$$
-    \mathbb{N}_0 \leftrightarrow \mathbb{Z}
-$$
-
 ![plots](nz.png)
 
 | $\mathbb{N}_0$ | $\leftrightarrow$ | $\mathbb{Z}$ |
