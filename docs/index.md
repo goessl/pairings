@@ -38,10 +38,10 @@ Domain: $\mathbb{N}_0\leftrightarrow\mathbb{Z}$
 
 Domain: $\mathbb{N}_0\leftrightarrow\mathbb{N}_0^2$
 
-|           | [`cantor`](cantor.md)                       | [`rosenberg_strong`](rosenberg_strong.md)                     | [`szudzik`](szudzik.md)                     |
-| --------- | ------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------- |
-| Pair      | [`cantor.pair`][pairings.cantor.pair]       | [`rosenberg_strong.pair`][pairings.rosenberg_strong.pair]     | [`szudzik.pair`][pairings.szudzik.pair]     |
-| Depair    | [`cantor.depair`][pairings.cantor.depair]   | [`rosenberg_strong.depair`][pairings.rosenberg_strong.depair] | [`szudzik.depair`][pairings.szudzik.depair] |
+|           | [`cantor`](cantor.md)                       | [`rosenberg_strong`](rosenberg_strong.md)                     | [`rosenberg_strong2`](rosenberg_strong2.md)                     | [`szudzik`](szudzik.md)                     |
+| --------- | ------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------- |
+| Pair      | [`cantor.pair`][pairings.cantor.pair]       | [`rosenberg_strong.pair`][pairings.rosenberg_strong.pair]     | [`rosenberg_strong2.pair`][pairings.rosenberg_strong2.pair]     | [`szudzik.pair`][pairings.szudzik.pair]     |
+| Depair    | [`cantor.depair`][pairings.cantor.depair]   | [`rosenberg_strong.depair`][pairings.rosenberg_strong.depair] | [`rosenberg_strong2.depair`][pairings.rosenberg_strong2.depair] | [`szudzik.depair`][pairings.szudzik.depair] |
 
 ## Roadmap
 

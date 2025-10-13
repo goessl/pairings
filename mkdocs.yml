@@ -19,6 +19,7 @@ nav:
     - cantor2.md
     - szudzik.md
     - rosenberg_strong.md
+    - rosenberg_strong2.md
 theme:
   name: material
   features:
