@@ -45,7 +45,7 @@ Enjoy the **[documentation webpage](https://goessl.github.io/pairings)**.
         - [ ] Generalizer to higher dimensions
         - [ ] Generalizer to $\mathbb{Z}^2$
         - [ ] Generalizer for shifts?
-        - [ ] Sort into diagonal-, square-, Morton-?, hyperbolic, ... shell fillers
+        - [x] Sort into diagonal-, square-, Morton-?, hyperbolic, ... shell fillers
         - [ ] plots with norm comparisons
 - Rationals
     - [ ] Farey

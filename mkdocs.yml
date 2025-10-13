@@ -10,7 +10,6 @@ copyright: Copyright &copy; 2025 Sebastian Gössl
 
 nav:
   - Home: index.md
-
   - Foldings:
     - nz.md
     - nz2.md
@@ -20,6 +19,7 @@ nav:
     - szudzik.md
     - rosenberg_strong.md
     - rosenberg_strong2.md
+  - util.md
 theme:
   name: material
   features:

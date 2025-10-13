@@ -29,19 +29,24 @@ pip install git+https://github.com/goessl/pairings.git
 
 Domain: $\mathbb{N}_0\leftrightarrow\mathbb{Z}$
 
-|           | [`nz`](nz.md)                           | [`nz2`](nz2.md)                         |
-| --------- | --------------------------------------- | --------------------------------------- |
-| Pair      | [`nz.fold`][pairings.nz.fold]           | [`nz2.fold`][pairings.nz2.fold]         |
-| Depair    | [`nz.unfold`][pairings.nz.unfold]       | [`nz2.unfold`][pairings.nz2.unfold]     |
+|        | [`nz`](nz.md)                  | [`nz2`](nz2.md)                 |
+| ------ | ------------------------------ | ------------------------------- |
+| Fold   | [`fold`][pairings.nz.fold]     | [`fold`][pairings.nz2.fold]     |
+| Unfold | [`unfold`][pairings.nz.unfold] | [`unfold`][pairings.nz2.unfold] |
 
 ### Pairings
 
 Domain: $\mathbb{N}_0\leftrightarrow\mathbb{N}_0^2$
 
-|           | [`cantor`](cantor.md)                       | [`rosenberg_strong`](rosenberg_strong.md)                     | [`rosenberg_strong2`](rosenberg_strong2.md)                     | [`szudzik`](szudzik.md)                     |
-| --------- | ------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------- |
-| Pair      | [`cantor.pair`][pairings.cantor.pair]       | [`rosenberg_strong.pair`][pairings.rosenberg_strong.pair]     | [`rosenberg_strong2.pair`][pairings.rosenberg_strong2.pair]     | [`szudzik.pair`][pairings.szudzik.pair]     |
-| Depair    | [`cantor.depair`][pairings.cantor.depair]   | [`rosenberg_strong.depair`][pairings.rosenberg_strong.depair] | [`rosenberg_strong2.depair`][pairings.rosenberg_strong2.depair] | [`szudzik.depair`][pairings.szudzik.depair] |
+|        | [`cantor`](cantor.md)              | [`rosenberg_strong`](rosenberg_strong.md)    | [`rosenberg_strong2`](rosenberg_strong2.md)   | [`szudzik`](szudzik.md)             |
+| ------ | ---------------------------------- | -------------------------------------------- | --------------------------------------------- | ----------------------------------- |
+| Shells | [`diagonal`][pairings.util.shell]  | [`cubic`][pairings.util.shell]               | [`cubic`][pairings.util.shell]                | [`cubic`][pairings.util.shell]      |
+| Pair   | [`pair`][pairings.cantor.pair]     | [`pair`][pairings.rosenberg_strong.pair]     | [`pair`][pairings.rosenberg_strong2.pair]     | [`pair`][pairings.szudzik.pair]     |
+| Depair | [`depair`][pairings.cantor.depair] | [`depair`][pairings.rosenberg_strong.depair] | [`depair`][pairings.rosenberg_strong2.depair] | [`depair`][pairings.szudzik.depair] |
+
+### Utility
+
+- [`shell`][pairings.util.shell]
 
 ## Roadmap
 
@@ -61,7 +66,7 @@ Domain: $\mathbb{N}_0\leftrightarrow\mathbb{N}_0^2$
         - [ ] Generalizer to higher dimensions
         - [ ] Generalizer to $\mathbb{Z}^2$
         - [ ] Generalizer for shifts?
-        - [ ] Sort into diagonal-, square-, Morton-?, hyperbolic, ... shell fillers
+        - [x] Sort into diagonal-, square-, Morton-?, hyperbolic, ... shell fillers
         - [ ] plots with norm comparisons
 - Rationals
     - [ ] Farey
