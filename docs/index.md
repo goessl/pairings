@@ -29,20 +29,23 @@ pip install git+https://github.com/goessl/pairings.git
 
 Domain: $\mathbb{N}_0\leftrightarrow\mathbb{Z}$
 
-|        | [`nz`](nz.md)                  | [`nz2`](nz2.md)                 |
-| ------ | ------------------------------ | ------------------------------- |
-| Fold   | [`fold`][pairings.nz.fold]     | [`fold`][pairings.nz2.fold]     |
-| Unfold | [`unfold`][pairings.nz.unfold] | [`unfold`][pairings.nz2.unfold] |
+| Name            | Fold                        | Unfold                          |
+|-----------------|-----------------------------|---------------------------------|
+| [`nz`](nz.md)   | [`fold`][pairings.nz.fold]  | [`unfold`][pairings.nz.unfold]  |
+| [`nz2`](nz2.md) | [`fold`][pairings.nz2.fold] | [`unfold`][pairings.nz2.unfold] |
 
 ### Pairings
 
 Domain: $\mathbb{N}_0\leftrightarrow\mathbb{N}_0^2$
 
-|        | [`cantor`](cantor.md)              | [`rosenberg_strong`](rosenberg_strong.md)    | [`rosenberg_strong2`](rosenberg_strong2.md)   | [`szudzik`](szudzik.md)             |
-| ------ | ---------------------------------- | -------------------------------------------- | --------------------------------------------- | ----------------------------------- |
-| Shells | [`diagonal`][pairings.util.shell]  | [`cubic`][pairings.util.shell]               | [`cubic`][pairings.util.shell]                | [`cubic`][pairings.util.shell]      |
-| Pair   | [`pair`][pairings.cantor.pair]     | [`pair`][pairings.rosenberg_strong.pair]     | [`pair`][pairings.rosenberg_strong2.pair]     | [`pair`][pairings.szudzik.pair]     |
-| Depair | [`depair`][pairings.cantor.depair] | [`depair`][pairings.rosenberg_strong.depair] | [`depair`][pairings.rosenberg_strong2.depair] | [`depair`][pairings.szudzik.depair] |
+| Name                                        | Shells                            | Pair                                      | Depair                                        |
+|---------------------------------------------|-----------------------------------|-------------------------------------------|-----------------------------------------------|
+| [`cantor`](cantor.md)                       | [`diagonal`][pairings.util.shell] | [`pair`][pairings.cantor.pair]            | [`depair`][pairings.cantor.depair]            |
+| [`rosenberg_strong`](rosenberg_strong.md)   | [`cubic`][pairings.util.shell]    | [`pair`][pairings.rosenberg_strong.pair]  | [`depair`][pairings.rosenberg_strong.depair]  |
+| [`rosenberg_strong2`](rosenberg_strong2.md) | [`cubic`][pairings.util.shell]    | [`pair`][pairings.rosenberg_strong2.pair] | [`depair`][pairings.rosenberg_strong2.depair] |
+| [`szudzik`](szudzik.md)                     | [`cubic`][pairings.util.shell]    | [`pair`][pairings.szudzik.pair]           | [`depair`][pairings.szudzik.depair]           |
+| [`szudzik2`](szudzik2.md)                   | [`cubic`][pairings.util.shell]    | [`pair`][pairings.szudzik2.pair]          | [`depair`][pairings.szudzik2.depair]          |
+| [`szudzik3`](szudzik3.md)                   | [`cubic`][pairings.util.shell]    | [`pair`][pairings.szudzik3.pair]          | [`depair`][pairings.szudzik3.depair]          |
 
 ### Utility
 

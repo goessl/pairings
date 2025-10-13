@@ -20,7 +20,7 @@ __all__ = ('pair', 'depair')
 def pair(i, j):
     """Return the paired number.
     
-    Szudzik pairing function variation.
+    Szudzik pairing function.
     """
     assert isinstance(i, int) and i>=0 and isinstance(j, int) and j>=0, 'Can only pair two non-negative integers'
     if i < j:
@@ -31,7 +31,7 @@ def pair(i, j):
 def depair(z):
     """Return the depaired numbers.
     
-    Szudzik pairing function variation inverse.
+    Szudzik pairing function inverse.
     """
     assert isinstance(z, int) and z>=0, 'Can only depair a non-negative integer'
     m = isqrt(z)
